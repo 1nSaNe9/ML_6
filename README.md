@@ -64,7 +64,7 @@ model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accur
 model.fit(train_data, train_labels, epochs=10, batch_size=64, validation_split=0.1)
 ```
 
-##Сохранение модели
+## Сохранение модели
 
 ```
 model.save('cnn_dog_cat_model.h5')
