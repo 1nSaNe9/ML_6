@@ -63,6 +63,7 @@ model = Sequential([
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 model.fit(train_data, train_labels, epochs=10, batch_size=64, validation_split=0.1)
 ```
+![alt text](train.png)
 
 ## Сохранение модели
 
