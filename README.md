@@ -83,7 +83,7 @@ def preprocess_image(image_path, img_size=(32, 32)):
 ```
 
 ## Тестирование
-![alt text](Image/cat1.jpg)
+![alt text](ML_6/Image/cat1.jpg)
 
 
 ![alt text](Test.png)
